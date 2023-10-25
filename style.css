@@ -1,23 +1,28 @@
-body{
-    width: 100%;
-    margin: auto;
-    padding: auto;
-}
-
-.div-principal {
+body {
     background-color: #000000;
     display: flex;
     flex-direction: row;
+    min-height: 100vh;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+}
+
+.div-principal {
     justify-content: center;
-    width: 100%;
+    min-height: 100vh;
 }
 
 .div-principal .div {
-    background-color: #000000;
     overflow: hidden;
+    justify-content: center;
+    min-height: 100vh;
     width: 1440px;
     height: 3910px;
+    min-width: 100vh;
     position: relative;
+    margin: auto;
+    padding: auto;
 }
 
 .div-principal .cat-dev {
@@ -80,7 +85,7 @@ body{
     display: flex;
     width: 1353px;
     top: 764px;
-    left: 87px;
+    left: 120px;
     align-items: center;
     position: absolute;
 }
@@ -89,7 +94,6 @@ body{
     position: relative;
     width: 503px;
     height: 622px;
-    margin-left: -128px;
     object-fit: cover;
 }
 
@@ -125,7 +129,7 @@ body{
 .div-principal .div4 {
     display: inline-flex;
     top: 2374px;
-    left: 29px;
+    left: 60px;
     align-items: center;
     position: absolute;
 }
